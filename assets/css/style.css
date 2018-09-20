@@ -1,0 +1,185 @@
+/*
+* Author : Santo Saputro
+* created at 17 september 2018
+* link @folksydesign
+*
+* font-family: 'Roboto Condensed', sans-serif;
+*
+*/
+
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* color - background */
+.c-green-1 {
+  color: #74C72D;
+}
+
+.c-white {
+  color: #fff;
+}
+
+.b-green-1 {
+  background: #74C72D;
+}
+
+/* navbar */
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-default {
+  background-color: #74C72D;
+  color: #fff;
+  border-color: #74C72D;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 22px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* panel */
+.panel {
+  border-radius: 0;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #74C72D;
+}
+
+.panel-body {
+    min-height: 30em;
+    padding: 15px;
+}
+
+/* chat form  */
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 98%;
+    margin-bottom: 0;
+}
+
+.input-group
+.form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.btn,
+.input-group-btn:first-child>.btn-group>.btn,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 50px;
+}
+
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn,
+.input-group-btn:first-child>.btn:not(:first-child),
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group>.btn,
+.input-group-btn:last-child>.dropdown-toggle {
+    border-radius: 80px;
+}
+
+.btn-circle {
+    display: inline-block;
+    padding: 6px 11px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    background: #74C72D;
+    border: 1px solid ##74C72D;
+    /* border-radius: 4px; */
+}
+
+/* chat */
+/* .chat-left {
+  position: relative;
+  display: block;
+  padding: 2em;
+  max-width: 80%;
+} */
+
+.chat {
+  position: relative;
+  display: block;
+  padding: 2em;
+  max-width: 80%;
+}
+
+.alert-left {
+  position: absolute;
+  max-width: 80%;
+}
+
+.alert-right {
+  position: absolute;
+  max-width: 80%;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.person i{
+  font-size: 25px;
+  color: #74C72D;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    /* border-radius: 4px; */
+    border-top-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.alert-success {
+    color: #000;
+    background-color: #BAE89B;
+    border-color: #d6e9c6;
+}
+
+.box-1 {
+
+}
